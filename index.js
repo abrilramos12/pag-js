@@ -200,3 +200,6 @@ while (entrada != ESC) {
  }
 
    bienvenida();
+
+//   Clase Array
+
