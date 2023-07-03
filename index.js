@@ -180,26 +180,28 @@ while (entrada != ESC) {
 }
 
 //Entrega
- let menu = () => {
-     let op = prompt("Seleccione uan opcion: \n 1. Productos \n 2 consulta");
-     if (op == consulta) {
-         alert()
-     }
- }
+let menu = () => {
+    let op = prompt("Seleccione uan opcion: \n 1. Productos \n 2 consulta");
+    if (op == consulta) {
+        alert()
+    }
+}
 
- let bienvenida = () => {
-     let nombre = prompt("Ingrese su nombre: ");
-     let edad = prompt('Ingrese su edad: ');
-  if (edad >= 18) {
-         alert("!Bienvenido " + nombre);
-         /*llamada a la accion */
-         menu()
-     } else {
-         alert('Usted es menor de edad');
-     }
- }
+let bienvenida = () => {
+    let nombre = prompt("Ingrese su nombre: ");
+    let edad = prompt('Ingrese su edad: ');
+    if (edad >= 18) {
+        alert("!Bienvenido " + nombre);
+        /*llamada a la accion */
+        menu()
+    } else { 
+        alert('Usted es menor de edad'); 
+    }
+}
 
-   bienvenida();
+
+bienvenida();
+menu()
 
 //   Clase Array
 
