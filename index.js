@@ -23,7 +23,7 @@
 
 
 
-// console.log(menu)
+// console.log(menu);
 
 
 
@@ -34,12 +34,12 @@
 
 
 
-// console.log('hola comision')
+// console.log('hola comision');
 
 
 // if(numero = 3){
-//     console.log('hola comision')
-//     console.log('hola comision')
+//     console.log('hola comision');
+//     console.log('hola comision');
 // }
 
 // comparaciones logicas && (y) || (o)
@@ -158,50 +158,151 @@
 
 // }
 //entrega
-let entrada = prompt('ingresar nombre');
+// let entrada = prompt('ingresar nombre');
 
-while (entrada != ESC) {
-    switch (entrada) {
-        case 'Ana':
-            alert('Hola ana');
-            break;
+// while (entrada != ESC) {
+//     switch (entrada) {
+//         case 'Ana':
+//             alert('Hola ana');
+//             break;
 
-        case 'agus':
-            alert('Hola agus');
-            break;
-        case 'Abril':
-            alert('Hola abril');
-            break;
-        default:
-            alert('quien sos');
-            break;
-    }
-    entrada = prompt('ingresar otro nombre')
-}
+//         case 'agus':
+//             alert('Hola agus');
+//             break;
+//         case 'Abril':
+//             alert('Hola abril');
+//             break;
+//         default:
+//             alert('quien sos');
+//             break;
+//     }
+//     entrada = prompt('ingresar otro nombre')
+// }
 
 //Entrega
-let menu = () => {
-    let op = prompt("Seleccione uan opcion: \n 1. Productos \n 2 consulta");
-    if (op == consulta) {
-        alert()
-    }
-}
+// let menu = () => {
+//     let op = prompt("Seleccione uan opcion: \n 1. Productos \n 2 consulta");
+//     if (op == consulta) {
+//         alert();
+//     }
+// }
 
-let bienvenida = () => {
-    let nombre = prompt("Ingrese su nombre: ");
-    let edad = prompt('Ingrese su edad: ');
-    if (edad >= 18) {
-        alert("!Bienvenido " + nombre);
-        /*llamada a la accion */
-        menu()
-    } else { 
-        alert('Usted es menor de edad'); 
-    }
-}
+// let bienvenida = () => {
+//     let nombre = prompt("Ingrese su nombre: ");
+//     let edad = prompt('Ingrese su edad: ');
+//     if (edad >= 18) {
+//         alert("!Bienvenido " + nombre);
+//         /*llamada a la accion */
+//         menu();
+//     } else { 
+//         alert('Usted es menor de edad'); 
+//     }
+// }
 
 
-bienvenida();
-menu()
+// bienvenida();
+// menu()
 
-//   Clase Array
+// OBJETOS(14 DE JUNIO)
+
+// let nombre = 'Abril';
+// let apellido = 'Ramos';
+// let edad = 31;
+
+
+
+// const persona = [
+//     nombre: 'Homero',
+//     apellido: 'Simpsoms',
+//     edad:35,
+//     emai : 'homero@gmail.com',
+//     esMayorEdad: true
+
+
+// ]
+
+// console.log(persona.nombre, persona.esMayorEdad);
+// console.log(persona.email);
+// console.log(persona['nombre']), persona (['email']);
+
+// // Asignando un nuevo nombre 
+
+// persona  ['nombre'] = marge;
+// edad ['edad'] = 40;
+
+// console.log(persona.nombre, persona.edad);
+// // this --> 'este' es un objeto hace referencia al objeto que esta ejecutando 
+// function Persona(nombre,apellido,edad){
+//     this.nombre = nombre;
+//     this.apellido = apellido; 
+//     this.edad = edad;
+
+// }
+// const persona3 = new Persona('Guada', 'Perez',25);
+// const persona4 = new Persona ('Rosie', 'Ramson', 55);
+// for(let i = 0; i< 3; i++){
+//     const nombre = prompt('ingresar el nombre ')
+//     const apellido = prompt('ingresar el nombre ')
+//     const edad = prompt('ingresar el nombre ')
+// }
+
+// const nombre = prompt('ingresar el nombre ');
+// const apellido = prompt('ingresar el apellido ');
+// const email = prompt('ingresar el email ');
+// const persona5 = new Persona(nombre,apellido,email)
+
+// console.log(persona5);
+// const persona5 = new Persona()
+
+// console.log(persona3);
+// console.log(persona4);
+
+// const saludar = ()=>{
+//     return 'Hola ¿como estas?'
+// }
+// console.log(saludar());
+
+// // Metodos
+// let texto = 'hola';
+// console.log(texto.length); //length es un metodo
+// console.log(texto.toLowerCase());
+// //  un metodo es una funcion de algun objeto
+// function Persona(nombre,apellido,edad){
+//     this.nombre = nombre;
+//     this.apellido = apellido; 
+//     this.edad = edad;
+//     this.hablar = function(){return 'hola soy' + this.nombre}
+//     this.getFullName = function() {return this.name + ' ' + this.apellido }
+// }
+
+// const persona1 = new Persona ('Guada','lo más', 35);
+// const persona2 = new Persona('Pablo', 'lo más',37);
+// const persona3 = new Persona('Abril', 'lo más', 24);
+
+// console.log(persona1.hablar());
+// console.log(persona2.hablar());
+// console.log(persona3.getFullName());
+ 
+// Operacion in y for in 
+
+ console.log('nombre' in persona1); //pregunta si nombre esta en persona1
+
+ for(const propiedad in persona1){
+    console.log(propiedad);
+ }
+
+ 
+  //   Clase Array
+
+// Funciones de orden superior I
+
+
+
+// DOM
+// Modelos de objeto de documento
+// objeto --> JS
+
+// Eventos
+
+
 
