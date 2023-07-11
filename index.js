@@ -285,13 +285,24 @@
  
 // Operacion in y for in 
 
- console.log('nombre' in persona1); //pregunta si nombre esta en persona1
+function Persona(nombre,apellido,edad){
+        this.nombre = nombre;
+        this.apellido = apellido; 
+        this.edad = edad;
+        this.fechaNacimiento= '08/12/1958'
+        this.hablar = function(){return 'hola soy' + this.nombre}
+        this.getFullName = function() {return this.name + ' ' + this.apellido }
+    }
 
+//  console.log('nombre' in persona1); //pregunta si nombre esta en persona1
+
+const persona = Persona ('Guada', 'el mejor', 25)
  for(const propiedad in persona1){
     console.log(propiedad);
+    console.log('valer:', persona(propiedad));
  }
 
- 
+
   //   Clase Array
 
 // Funciones de orden superior I
