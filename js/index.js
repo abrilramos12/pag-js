@@ -325,9 +325,45 @@
 // length --> sirve para que devuelva el tamaño de nuestro array 
 // 
  console.table(numeros);// --> te lo muestra en forma de tabla
+numeros.push(3);//--> me agrega un nuevo item al array 
+numero.unshift('ultimo agregado');
+console.table(numero);
 
+numeros.push({nombre: 'fede'});
+console.log(numeros);
+
+// eliminar items
+numero.shift()
+numero.pop()
+console.log(numeros);
+
+//splice --> eliminar
+
+numeros.splice(2,3); //--> siempre le pasamos dos parametros desde que posicion quiere que borres y cuanto quiere que borre
+console.log(numeros);
+//join --> indica que me una los elementos del array 
+
+// console.log(numeros.join(', '));
+
+const nombres = ['Fernando','Mirta','Guadalupe','Camila','Sofia','Abril']
+const arrayConcat = numero.concat(nombres); //-->Concatena los numeros y nombres
+console.log(arrayConcat);
+
+// slice --> copia desde hasta, no modifica el array original 
+const numeros=[ 1 , 2,'3',4, 'Abril',true,6,98,6]
+const copiarNumeroParcial = numero.slice(2,6);
+console.log(copiarNumeroParcial);
+
+// indexOf --> lo que devuelve es las posicion en el cual se encuentra el elemento de ese array 
+console.log(numeros.indexOf('Lucas'));
+console.log(numeros.indexOf('Fede'));
+console.log(numeros.indexOf('92'));
+console.log(numeros.indexOf('6'));
+
+//includes
 // tamaño del array --> ultima posicion 
 //Tamaño = 6 entonces la ultima posición es tamaño -1
+
 // Funciones de orden superior I
 
 
