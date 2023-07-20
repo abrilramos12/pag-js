@@ -324,7 +324,7 @@
 // console.log(miArray[miArray.lenght -1]);
 // length --> sirve para que devuelva el tamaño de nuestro array 
 // 
-
+ console.table(numeros);// --> te lo muestra en forma de tabla
 
 // tamaño del array --> ultima posicion 
 //Tamaño = 6 entonces la ultima posición es tamaño -1
