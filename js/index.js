@@ -170,7 +170,7 @@
 //             alert('Hola agus');
 //             break;
 //         case 'Abril':
-//             alert('Hola abril');
+//             alert('Hola abril'); 
 //             break;
 //         default:
 //             alert('quien sos');
@@ -285,26 +285,49 @@
  
 // Operacion in y for in 
 
-function Persona(nombre,apellido,edad){
-        this.nombre = nombre;
-        this.apellido = apellido; 
-        this.edad = edad;
-        this.fechaNacimiento= '08/12/1958'
-        this.hablar = function(){return 'hola soy' + this.nombre}
-        this.getFullName = function() {return this.name + ' ' + this.apellido }
-    }
+// function Persona(nombre,apellido,edad){
+//         this.nombre = nombre;
+//         this.apellido = apellido; 
+//         this.edad = edad;
+//         this.fechaNacimiento= '08/12/1958'
+//         this.hablar = function(){return 'hola soy' + this.nombre}
+//         this.getFullName = function() {return this.name + ' ' + this.apellido }
+//     }
 
 //  console.log('nombre' in persona1); //pregunta si nombre esta en persona1
 
-const persona = Persona ('Guada', 'el mejor', 25)
- for(const propiedad in persona1){
-    console.log(propiedad);
-    console.log('valer:', persona(propiedad));
- }
+// const persona = Persona ('Guada', 'el mejor', 25)
+//  for(const propiedad in persona1){
+//     console.log(propiedad);
+//     console.log('valer:', persona(propiedad));
+//  }
 
 
   //   Clase Array
+// const arrayA = [1,2,'C3', 'Abril', true,{nombre:'Guada'}];
+// console.log(arrayA);
 
+// // Array con objetos
+// // Object.nombre --> obj['nombre'];
+// console.log(arrayA[2] + numero [4]);
+// console.log(arrayA[3]);
+// const numeros= [1,2,3,4,5,6,7,8,9,10]
+
+// for (let index = 0; index<6; index ++){
+//   alert(numeros[index]);
+ 
+// }
+
+//metodos
+// const miArray = ['Abril',1,10];
+// console.log(miArray.length);
+// console.log(miArray[miArray.lenght -1]);
+// length --> sirve para que devuelva el tamaño de nuestro array 
+// 
+
+
+// tamaño del array --> ultima posicion 
+//Tamaño = 6 entonces la ultima posición es tamaño -1
 // Funciones de orden superior I
 
 
@@ -314,6 +337,53 @@ const persona = Persona ('Guada', 'el mejor', 25)
 // objeto --> JS
 
 // Eventos
+
+
+// clase del dia 12/07
+// let permiso
+
+// if (usuario.edad =< ) {
+    
+// } else {
+    
+// }
+
+// // clase dia 17/07
+
+// const nombre = ['juan','carla','cande','pablo', 'ana','luis'];
+// console.log(nombre);
+// console.log(...nombre);
+
+// const usuario1 = {
+//   nombre: 'Fede',
+//   apellido: 'Martinez',
+//   curso: 'JS',
+//   email: 'fm@gmail.com'
+// }
+
+// const usuario2 = {
+//   nombre: 'Candela',
+//   apellido: 'Martinez',
+//   curso: 'html',
+//   email: 'cm@gmail.com'
+// }
+
+// function suma(num1,num2) {
+//   console.log();
+
+// }
+
+// suma(2,4);
+
+function suma(parametros) {
+  console.log(parametros);
+}
+
+suma(2,4);
+
+
+// Librerias
+
 
 
 
